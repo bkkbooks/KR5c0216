@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0216/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0216/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上養生胎息氣經
+  date: '2015-08-29 00:54:35.817948'
+  source:
+    repository: kanripo
+    path: KR5c0216
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0216_000-HFL.yaml, hash: 'sha256:25b21992b9a6cc69d6007403cca0a378bd15c91e961c9eaec3c892408f0027e8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0216_000-HFL.markers.yaml, hash: 'sha256:305fc8a301d7ac3dd1810d3b6db241e9cfa497ee471dfcd09e422f7da50dc9ae'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0216_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2610
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:521348a3e0857532cb605c0984cd629373d543a372476ca73e50afdb1ce6fe26
